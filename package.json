@@ -1,12 +1,16 @@
 {
-    "name": "aws-glacier-add-to-vault",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Justin Fargione",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "aws-glacier-add-to-vault",
+  "version": "0.0.1",
+  "description": "Add files to an AWS Glacier vault",
+  "main": "index.js",
+  "author": "Justin Fargione",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.2.39"
+  }
 }
